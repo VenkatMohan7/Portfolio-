@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  
+  <!-- Subtle tech circles -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="8 8" opacity="0.4"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#818cf8" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Shoulders & Suit -->
+  <path d="M70 380 C80 290 130 260 200 260 C270 260 320 290 330 380 Z" fill="url(#suit)"/>
+  <!-- White shirt collar -->
+  <polygon points="200,260 170,320 200,340 230,320" fill="#f8fafc"/>
+  <!-- Tie -->
+  <polygon points="195,300 205,300 210,380 190,380" fill="#2563eb"/>
+  
+  <!-- Neck -->
+  <rect x="175" y="210" width="50" height="60" rx="10" fill="#d97706"/>
+  
+  <!-- Head / Face -->
+  <ellipse cx="200" cy="170" rx="65" ry="75" fill="#f59e0b"/>
+  
+  <!-- Hair -->
+  <path d="M135 150 C135 90 170 80 200 80 C230 80 265 90 265 150 C265 140 250 110 200 110 C150 110 135 140 135 150 Z" fill="#0f172a"/>
+  
+  <!-- Glasses -->
+  <rect x="150" y="150" width="40" height="25" rx="8" fill="none" stroke="#0f172a" stroke-width="4"/>
+  <rect x="210" y="150" width="40" height="25" rx="8" fill="none" stroke="#0f172a" stroke-width="4"/>
+  <line x1="190" y1="162" x2="210" y2="162" stroke="#0f172a" stroke-width="4"/>
+  
+  <!-- Eyes -->
+  <circle cx="170" cy="162" r="4" fill="#0f172a"/>
+  <circle cx="230" cy="162" r="4" fill="#0f172a"/>
+  
+  <!-- Smile -->
+  <path d="M180 205 Q200 220 220 205" fill="none" stroke="#78350f" stroke-width="4" stroke-linecap="round"/>
+</svg>
